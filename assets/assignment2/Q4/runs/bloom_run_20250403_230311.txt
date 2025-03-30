@@ -1,0 +1,44 @@
+Corpus size: 1000000
+Query size: 5000
+String length: 100
+Bloom filter size (m): 1024
+Hash functions (k): [2, 4, 6, 8, 10, 12]
+
+Running Bloom filter with k=2...
+Confusion Matrix for k=2:
+True Positives: 2500, False Positives: 2500
+True Negatives: 0, False Negatives: 0
+False Positive Rate for k=2: 1.0000
+
+Running Bloom filter with k=4...
+Confusion Matrix for k=4:
+True Positives: 2500, False Positives: 2500
+True Negatives: 0, False Negatives: 0
+False Positive Rate for k=4: 1.0000
+
+Running Bloom filter with k=6...
+Confusion Matrix for k=6:
+True Positives: 2500, False Positives: 2500
+True Negatives: 0, False Negatives: 0
+False Positive Rate for k=6: 1.0000
+
+Running Bloom filter with k=8...
+Confusion Matrix for k=8:
+True Positives: 2500, False Positives: 2500
+True Negatives: 0, False Negatives: 0
+False Positive Rate for k=8: 1.0000
+
+Running Bloom filter with k=10...
+Confusion Matrix for k=10:
+True Positives: 2500, False Positives: 2500
+True Negatives: 0, False Negatives: 0
+False Positive Rate for k=10: 1.0000
+
+Running Bloom filter with k=12...
+Confusion Matrix for k=12:
+True Positives: 2500, False Positives: 2500
+True Negatives: 0, False Negatives: 0
+False Positive Rate for k=12: 1.0000
+
+Optimal k for the dataset: 2
+Optimal False Positive Rate for the dataset: 1.0000
