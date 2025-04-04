@@ -1,5 +1,9 @@
 data/
 # meta/
+corpus.txt
+queries.txt
+positive_queries.txt
+negative_queries.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
